@@ -1,0 +1,39 @@
+.table.table-responsive{
+    filter: drop-shadow(2px 2px 4px #606060);
+}
+
+.table{
+    border-radius: var(--border-radius-medium);
+ position: relative;
+ overflow: hidden;
+}
+
+.table th,
+.table td {
+ border-bottom: 1px solid #363a3e;
+ padding: 30px;
+}
+
+.table thead th {
+ border-right: 1px solid #c7460a;
+ border-bottom-color: transparent;
+}
+
+.table th + td {
+ border-bottom: 0;
+}
+
+img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: none;
+    position: relative;
+}
+
+div{
+    background-color: #242424;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
