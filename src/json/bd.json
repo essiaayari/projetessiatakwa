@@ -89,6 +89,46 @@
                 }
               ]
           }
-      ]
+      ],
+      "EventSchedule":[
+        {
+          "day":"Friday",
+         
+          "nom":"Met gala",
+          "date":"2023-11-17",
+          "image":"assets/img1.png"
+        },
+        {
+          "day":"Saturday",
+        
+
+          "nom":"Met gala",
+          "date":"2023-11-17",
+          "image":"assets/img1.png"},
+        {
+          "day":"Sunday",
+          "nom":"Met gala",
+          "date":"2023-11-17",
+          "image":"assets/img1.png"
+          }
+        
+
+      ],
       
-    }
+      
+        "gallery": [
+          { "image": "assets/ev1.jpg", "height": "100px", "width": "150px" },
+          { "image": "assets/ev2.jpg", "height": "200px", "width": "250px" },
+          { "image": "assets/ev3.jpg", "height": "150px", "width": "200px" },
+          { "image": "assets/ev4.jpg", "height": "120px", "width": "180px" },
+          { "image": "assets/ev5.jpg", "height": "180px", "width": "120px" },
+          { "image": "assets/ev6.jpg", "height": "250px", "width": "200px" },
+          { "image": "assets/img1.png", "height": "120px", "width": "120px" },
+          { "image": "assets/imggg.png", "height": "150px", "width": "180px" },
+          { "image": "assets/img2.png", "height": "200px", "width": "150px" }
+        ]
+      }
+      
+      
+      
+    

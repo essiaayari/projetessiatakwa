@@ -10,7 +10,8 @@ export class HomeComponent implements AfterViewInit{
   ngAfterViewInit() {
     // Your JavaScript code that executes on page load
     // For example:
-    var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+    var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime(); 
+  
 
     var x = setInterval(() => {
       var now = new Date().getTime();
@@ -35,3 +36,4 @@ export class HomeComponent implements AfterViewInit{
     }, 1000);
   }
 }
+
