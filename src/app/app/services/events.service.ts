@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Events } from '../classes/events';
 import { Eventschedule } from '../classes/eventschedule';
-import { Evenement } from '../classes/evenement';
 const URL1="http://localhost:3000/eventschedule";
 const URL="http://localhost:3000/evenement"
 
@@ -18,7 +17,5 @@ export class EventsService {
 gettableau():Observable<Eventschedule[]>{
   return this.http.get<Eventschedule[]>(URL1);
 }
-getenement():Observable<Evenement[]>{
-  return this.http.get<Evenement[]>(URL1);
-}
+
 }

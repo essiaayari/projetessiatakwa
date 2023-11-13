@@ -26,11 +26,8 @@ export class EventsActsComponent  {
         this.eventschuedule=datatab;
       }
      );
-     this.eventservice.getenement().subscribe(
-      dataev=>{
-        this.eventschuedule=dataev;
-      }
-     );
+   
+     
    }
 
 }
