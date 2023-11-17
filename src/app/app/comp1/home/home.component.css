@@ -17,6 +17,7 @@
   top: 20%;
   left: 30%;
   position: absolute;
+ 
 }
 .image1 h4{
   position: absolute;
@@ -35,6 +36,8 @@
   text-align: center;
   color: white;
   font-size: 50px;
+  opacity: 1; /* Initial opacity */
+  transition: opacity 0.5s ease;
 }
 /* pour la 2eme partie de home pour about us*/
 .image2{
@@ -113,7 +116,7 @@
 /*pour le 3eme partie de home pour le schedule des evenements*/
 
 .image3{
-  background-image: url("src/assets/img6.jpeg");
+  background-image: url("src/assets/img9.jpeg");
   background-size: cover;
   height: 750px;
   background-position: center;
@@ -150,3 +153,62 @@
 
   font-weight: 600;
 }
+
+
+
+/* event schedule */
+
+    .table-container {
+      position: absolute;
+      margin-top: 120px;
+      margin-left: 100px;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(111, 61, 61, 0.611), 0 0 15px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #200d33, #f2f2f2);
+    height: 600px; /* Adjust this value to make the table smaller */
+   
+  }    
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      height: 100%; 
+
+    }
+    
+    .table th, .table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+      vertical-align: middle;
+      
+    }
+    
+   th{
+      background-color: rgb(121, 57, 250);
+      height: 50px;
+   }
+  
+   .image-container{
+      width: 320px;
+      height:150px ;
+      background-size: cover;
+     
+  
+  
+   }
+   .td1{
+    color: rgb(239, 239, 239);
+    font-weight:bolder;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   td{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+   }
+   
+  

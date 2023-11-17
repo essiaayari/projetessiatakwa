@@ -1,33 +1,15 @@
-
 <section class="s1">
-<p>events-acts works!</p>
-<ul *ngFor="let e of event">
-  <li>
-    {{ e.nom }}
-    {{ e.image }}
-    {{ e.lieu }}
-    {{ e.date }}
-    {{ e.description }}
-
-    <p>Partenaires:</p>
-    <ul *ngFor="let partner of e.partenaire">
-      <li>{{ partner.nom }}</li>
-    </ul>
-
-    <p>Organisateurs:</p>
-    <ul *ngFor="let organizer of e.organisateur">
-      <li>{{ organizer.nom }}</li>
-    </ul>
-  </li>
-</ul>
+  <h1>OUR EVENTS!</h1>
+  <div *ngFor="let e of event" class="event-container">
+    <div class="event-details">
+      <h2>{{ e.nom }}</h2>
+      <p>{{ e.lieu }}</p>
+      <p>{{ e.date }}</p>
+    </div>
+    <div class="event-image" [style.background-image]="'url(' + e.image + ')'" >
+    </div>
+    <div class="event-description">
+      <p>{{ e.description }}</p>
+    </div>
+  </div>
 </section>
-
-<table >
-<tr *ngFor="let e of eventschuedule">
-  <th>
-    {{e.day}}</th>
-    <td> {{e.date}} {{e.image}} {{e.nom}} </td>
- 
-</tr>
-</table>
-

@@ -11,7 +11,6 @@ export class Events {
         public description:string,
         public partenaire:Partenaires[],
         public organisateur:Organisateurs[]
-
     ){
     }
 }
