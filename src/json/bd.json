@@ -1,20 +1,20 @@
 {
     "Membre":[
-        {"id":1,"nom_pren":"Ouertani Takwa","image":"assets/img1.jpg","email":"tt.tt@example.com","poste":"Presidente"},
-        {"id":2,"nom_pren":"Ayari Essia","image":"assets/img2.jpg","email":"A_A@example.com","poste":"Presidente"},
-        {"id":3,"nom_pren":"Romdhani Nour","image":"assets/img3.png","email":"N.ro@example.com","poste":"Vice-président"},
-        {"id":4,"nom_pren":"Jbeli Ahmed","image":"assets/img4.png","email":"Ah20@example.com","poste":"responsable marketing"},
-        {"id":5,"nom_pren":"Tounsi Youssef","image":"assets/img5.png","email":"Ah20@example.com","poste":"responsable de communauté"},
-        {"id":6,"nom_pren":"Dridi Emna","image":"assets/img6.png","email":"Ah20@example.com","poste":"assistante ressources humaines"}
+        {"id":1,"nom_pren":"Attoueni omar","image":"assets/m1.jpg","email":"tt.tt@example.com","poste":"Presidente","facebook":"eeee.facebook","instagram":"eeee.instagram"},
+        {"id":2,"nom_pren":"Blkahdi oumayma","image":"assets/m2.jpg","email":"A_A@example.com","poste":"Presidente","facebook":"eeee.facebook","instagram":"eeee.instagram"},
+        {"id":3,"nom_pren":"Romdhani Nour","image":"assets/m3.jpg","email":"N.ro@example.com","poste":"Vice-président","facebook":"eeee.facebook","instagram":"eeee.instagram"},
+        {"id":4,"nom_pren":"Jbeli Ahmed","image":"assets/m4.jpg","email":"Ah20@example.com","poste":"responsable marketing","facebook":"eeee.facebook","instagram":"eeee.instagram"},
+        {"id":5,"nom_pren":"Tounsi Youssef","image":"assets/m5.jpg","email":"Ah20@example.com","poste":"responsable de communauté","facebook":"eeee.facebook","instagram":"eeee.instagram"},
+        {"id":6,"nom_pren":"Dridi Emna","image":"assets/m6.jpg","email":"Ah20@example.com","poste":"assistante ressources humaines","facebook":"eeee.facebook","instagram":"eeee.instagram"}
     ],
 
     "Evenement": [
         {
           "id": 1,
-          "image": "https://example.com/image.jpg",
+          "image": "assets/img15.jpeg",
           "nom": "Nom de l'événement",
           "lieu": "Lieu de l'événement",
-          "date": "2023-11-08",
+          "time": "2023-11-08",
           "description": "Description de l'événement",
           "partenaire": [
             {
@@ -35,10 +35,10 @@
         },
         {
             "id": 2,
-            "image": "https://example.com/image.jpg",
+            "image": "assets/img19.jpeg",
             "nom": "Nom de l'événement",
             "lieu": "Lieu de l'événement",
-            "date": "2023-11-08",
+            "time": "2023-11-08",
             "description": "Description de l'événement",
             "partenaire": [
               {
@@ -63,10 +63,10 @@
           },
           {
             "id": 3,
-            "image": "https://example.com/image.jpg",
+            "image": "assets/img20.jpeg",
             "nom": "Nom de l'événement",
             "lieu": "Lieu de l'événement",
-            "date": "2023-11-08",
+            "time": "2023-11-08",
             "description": "Description de l'événement",
             "partenaire": [
               {
@@ -93,23 +93,51 @@
       "EventSchedule":[
         {
           "day":"Friday",
-         
-          "nom":"Met gala",
-          "date":"2023-11-17",
-          "image":"assets/img1.png"
+          "nom1":"Pop Night",
+          "nom2":"",
+          "nom3":"Rock and  Roll",
+          "artist1":"Adele",
+          "artist2":"",
+          "artist3":"Rihana",
+
+          "time":"8:00-1:00 PM",
+          "date":"11/07/2024",
+          "image1":"assets/img18.jpeg",
+          "image2":"assets/img11.jpeg",
+          "image3":"assets/img20.jpeg"
+
+          
         },
         {
           "day":"Saturday",
-        
-
-          "nom":"Met gala",
-          "date":"2023-11-17",
-          "image":"assets/img1.png"},
+          "nom1":"",
+          "nom2":"Jazz night",
+          "nom3":"",
+          "artist1":"",
+          "artist2":"Four play",
+          "artist3":"",
+          "time":"11:00-3:00 PM",
+          "date":"11/08/2024",
+          "image1":"assets/img12.jpeg",
+          "image2":"assets/img19.jpeg",
+          "image3":"assets/img10.jpeg"
+          
+        },
+          
         {
           "day":"Sunday",
-          "nom":"Met gala",
-          "date":"2023-11-17",
-          "image":"assets/img1.png"
+          "nom1":"House Night",
+          "nom2":"",
+          "nom3":"local concert",
+          "artist1":"By Shouse",
+          "artist2":"",
+          "artist3":" By Taylor ",
+          "time":"8:00-00:00 PM",
+          "date":"11/09/2024",
+          "image1":"assets/img15.jpeg",
+          "image2":"assets/R.png",
+          "image3":"assets/img16.jpeg"
+
           }
         
 

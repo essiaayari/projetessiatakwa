@@ -1,4 +1,4 @@
-<div class="image1" >
+<div class="  image1" >
     <br>     <br>     <br><br>     <br>        <br>     <br>
 
 
@@ -12,7 +12,7 @@
       <h2>About Us</h2>
       <p>STAC Club d'Événements de notre institution! Nous sommes passionnés par l'organisation d'événements mémorables et engageants pour la communauté étudiante.<br><br>
         Notre club est bien plus qu'une simple plateforme d'organisation d'événements. C'est un lieu où les idées créatives prennent vie et où les étudiants peuvent se réunir pour partager leur enthousiasme pour des activités divertissantes et éducatives.</p><br/>
-      <button type="button" class=" neon-background-button b1">Read More</button>
+      <button (click)="onAboutUs()" class=" neon-background-button b1">Read More</button>
     </div>
     <div class="about-img neon-background">
       <img src="assets/img4.jpg">
@@ -20,6 +20,22 @@
   </section >
 <section class="image3">
 <h1 >Event Schedule</h1>
+<div class="table-container ">
+  <table class="table table-striped table-bordered">
+    <tr>
+      <th>Date</th>
+      <th *ngFor="let e of eventschuedule">
+        {{ e.day }}
+      </th>
+    </tr>
+    <tr *ngFor="let e of eventschuedule">
+      <td>{{ e.time }} </td>
+      <td class=" image-container td1" [style.background-image]="'url(' + e.image1 + ')'" > <br><br><br><br>{{e.nom1}} <br> {{e.artist1}} </td>
+      <td class=" image-container td1" [style.background-image]="'url(' + e.image2 + ')'" > <br><br><br><br>{{e.nom2}} <br> {{e.artist2}} </td>
+      <td class=" image-container td1" [style.background-image]="'url(' + e.image3 + ')'" > <br><br><br><br>{{e.nom3}} <br> {{e.artist3}} </td>
+    </tr>
+  </table>
+</div>
 </section>
 
 <section class="image4">

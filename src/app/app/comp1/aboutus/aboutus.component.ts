@@ -8,22 +8,33 @@ import { Gallery } from '../../classes/gallery';
   templateUrl: './aboutus.component.html',
   styleUrls: ['./aboutus.component.css']
 })
-export class AboutusComponent  implements OnInit{
+export class AboutusComponent implements OnInit {
 
-  lesimages:Gallery[]=[]
+  lesimages: Gallery[] = [];
+  lesmembres: Members[] = [];
 
-  lesmembres:Members[]=[];
-  constructor(private membreservice:MembersService){}
-    ngOnInit(): void {
-     this.membreservice.getMembres().subscribe(
-      data=>{
-        this.lesmembres=data;
+  constructor(private membreservice: MembersService) {}
+
+  ngOnInit(): void {
+    this.membreservice.getMembres().subscribe(
+      data => {
+        this.lesmembres = data;
       }
-     );
-     this.membreservice.getgallery().subscribe(
-      datag=>{
-        this.lesimages=datag;
+    );
+    this.membreservice.getgallery().subscribe(
+      datag => {
+        this.lesimages = datag;
       }
-     )
-    }
+    );
+  }
+  show:boolean=false;
+  showDetails(){
+    this.show=true;
+    alert('eeee');
+    
+  }
+  hideDetails(){
+    this.show=false;
+  }
+
 }
